@@ -1,3 +1,3 @@
 @echo off
-start Assets/Startup.py
+start Interface.py
 exit
