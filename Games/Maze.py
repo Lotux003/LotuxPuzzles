@@ -17,7 +17,7 @@ PathCreator.left(90)
 PathCreator.hideturtle()
 Solver.hideturtle()
 
-#add a turtle you can draw with in the top left of sreen
+#add a turtle you can draw with in the top left of screen
 
 mm.DrawGrid(GridTrtl, wn)
 mm.Start(Runner, PathCreator, Solver, wn)
