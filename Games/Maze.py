@@ -17,7 +17,22 @@ PathCreator.left(90)
 PathCreator.hideturtle()
 Solver.hideturtle()
 
-#add a turtle you can draw with in the top left of screen
+yertle = trtl.Turtle
+yetle.penup()
+yertle.goto(-120, 120)
+yertle.pendown()
+def dragging(x, y):
+    yertle.ondrag(None)
+    yertle.setheading(yertle.towards(x, y))
+    yertle.goto(x, y)
+    yertle.ondrag(dragging)
+
+wn = screen()
+
+yertle = Turtle('turtle')
+yertle.speed('fastest')
+
+yertle.ondrag(dragging)
 
 mm.DrawGrid(GridTrtl, wn)
 mm.Start(Runner, PathCreator, Solver, wn)
