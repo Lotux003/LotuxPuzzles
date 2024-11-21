@@ -22,11 +22,9 @@ def main():
     if choice == "1" or "01":
         Common.transition()
         spawn_program_and_die(['python', 'Games/Maze.py'])
-        quit()
     elif choice == "2" or "02":
         Common.transition()
         spawn_program_and_die(['python', 'Games/TicTacToe.py'])
-        quit()
 
     
 main()
